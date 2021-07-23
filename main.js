@@ -9,7 +9,7 @@ const button3 = document.getElementById("agebutton");
 
 //TMIButtonを押した後の処理
 TMIbutton.onclick = function () {
-  TMIdisplay.textContent = "趣味でけん玉をはじめました♪";
+  TMIdisplay.textContent = "最近、けん玉をはじめました！";
 };
 
 //fromButtonを押した後の処理

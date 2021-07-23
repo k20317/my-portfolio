@@ -63,6 +63,13 @@ header {
   align-items: center;
 }
 
+.portfolio__profile__links1 {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
 .portfolio__profile__links__element {
   font-size: 2.5vmin;
   height: 10rem;
@@ -82,7 +89,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 /* justify-content　が違う　; */
@@ -95,9 +102,18 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
+.from {
+  font-size: 2.5vmin;
+  color: white;
+}
+
+.age {
+  font-size: 2.5vmin;
+  color: white;
+}
 /* 　add  */
 .agebuttton {
   color: white;
@@ -120,6 +136,22 @@ header {
 }
 
 /*  TMI  */
+.T_M_I {
+  color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.T_M_II {
+  color: rgba(0, 0, 0, 0.5);
+  width: 91.5%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .TMIbutton {
   font-size: 2.5vmin;
   height: 200px;
@@ -135,7 +167,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 
 .footer- {
