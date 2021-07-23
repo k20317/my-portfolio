@@ -9,7 +9,70 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <h1>ポートフォリオサイト</h1>
+    <header>
+      <section class="header-container">
+        <h1 class="header__title">MyPortfolio</h1>
+      </section>
+    </header>
+
+    <div class="portfolio">
+      <!-- 下一行（"portfolio_profile"）なくてもいいかも？　 -->
+      <div class="portfolio_profile"></div>
+      <div class="portfolio__profile__name">Itsuki Kuramata</div>
+    </div>
+
+    <!-- Name.From -->
+    <div class="portfolio__profile__links">
+      <div class="round-dis">
+        <button id="frombutton" class="portfolio__profile__links__element">
+          From
+        </button>
+        <div id="fromdisplay"></div>
+      </div>
+
+      <div class="round-dis">
+        <button id="agebutton" class="portfolio__profile__links__element">
+          Age
+        </button>
+        <div id="agedisplay"></div>
+      </div>
+    </div>
+
+    <!-- link -->
+    <div class="portfolio__profile__links">
+      <div class="round-dis2">
+        <a
+          href="https://www.fukuoka-u.ac.jp/"
+          class="portfolio__profile__links__element"
+          >University</a
+        >
+      </div>
+
+      <div class="round-dis2">
+        <a href="https://jo1.jp/" class="portfolio__profile__links__element"
+          >Like</a
+        >
+      </div>
+
+      <div class="round-dis2">
+        <a
+          href="https://apps.apple.com/jp/app/%E3%81%AF%E3%81%98%E3%82%81%E3%81%AE%E3%81%84%E3%81%A3%E3%81%BD/id1554000263"
+          class="portfolio__profile__links__element"
+          >MyGame</a
+        >
+      </div>
+    </div>
+
+    　　
+    <div classs="TMI">
+      <button id="TMIbutton">TMI</button>
+      <div id="TMIdisplay"></div>
+    </div>
+
+    <footer class="footer-">
+      <p>- Itsuki Kuramata -</p>
+    </footer>
+
     <script src="main.js"></script>
   </body>
 </html>
