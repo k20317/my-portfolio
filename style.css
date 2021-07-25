@@ -7,6 +7,16 @@ h1 {
   align-items: center;
 }
 
+.body {
+  background-image: url("IMG_1562.JPG");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 header {
   color: white;
   width: 100%;
@@ -102,7 +112,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .from {
@@ -135,24 +145,42 @@ header {
   margin-bottom: 100px;
 }
 
+.T {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.TT {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 /*  TMI  */
 .T_M_I {
   color: rgba(0, 0, 0, 0.5);
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.T_M_II {
+  color: rgba(0, 0, 0, 0.5);
+  /* width: 91.5%; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.TMI {
+  color: rgba(0, 0, 0, 0.5);
+  /* width: 20%; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.T_M_II {
-  color: rgba(0, 0, 0, 0.5);
-  width: 91.5%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.TMIbutton {
+/* .TMIbutton {
   font-size: 2.5vmin;
   height: 200px;
   width: 200px;
@@ -160,15 +188,17 @@ header {
   justify-content: flex-end;
   align-items: center;
   margin-bottom: 100px;
-}
-.TMIdisplay {
+} */
+/* .TMIdisplay {
   font-size: 2.5vmin;
   height: 30vh;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-left: 40vmin;
   margin-bottom: 40px;
-}
+  margin-top: 40px;
+} */
 
 .footer- {
   color: white;
@@ -177,9 +207,10 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
+/* ↓使わない！今後解読する^^ */
 /* .heart {
   position: relative;
   width: 100px;
